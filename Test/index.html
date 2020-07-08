@@ -1,0 +1,317 @@
+<html><head>
+	<title>Wolfy's Repo</title>
+
+	<base target="_blank">
+
+	<link rel="stylesheet" type="text/css" href="cydia/newstyle.css">
+
+
+
+
+
+
+
+
+
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+	<meta name="description" content="A page about iPhone Software.">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0">
+
+
+	<script type="text/javascript">
+		Window.prototype.alert=function(){};
+	</script>
+
+
+	<script type="text/javascript">
+	function moveChildren(src, dest) {
+		one = document.getElementById(src);
+		two = document.getElementById(dest);
+		while (one.hasChildNodes())
+	    	two.appendChild(one.childNodes[0]);
+	}
+	</script>
+
+
+
+
+<script type="text/javascript">
+(function() {
+     var update = function() {
+         if (window.parent != window)
+             parent.postMessage({cytyle: {name: "iframe-y", value: document.body.scrollHeight}}, "*");
+     };
+     window.addEventListener('message', function(event) {
+         var message = event.data.cytyle;
+         if (message == undefined)
+             return;
+         switch (message.name) {
+             case "iframe-y":
+                 var height = message.value;
+                 var iframes = document.getElementsByTagName("iframe");
+                 if (iframes.length != 1)
+                     return;
+                 var iframe = iframes.item(0);
+                 iframe.style.height = height + 'px';
+                 update();
+             break;
+         }
+     }, false);
+     window.addEventListener('DOMContentLoaded', update, false);
+ })();
+</script>
+
+
+</head>
+
+<body>
+
+
+
+	
+
+
+
+
+
+
+
+
+
+<panel>
+	<fieldset style="clear:both" id="description">
+	<label>Description</label>
+
+		<div>
+			
+<style scoped="">
+    #ak_d {
+    padding-bottom: 2px;
+}
+
+#ak_d h1 {
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 0.3em;
+}
+
+#ak_d p {
+    margin-bottom: 0.5em;
+}
+
+#ak_d .button {
+    display: block;
+    border: 1px solid;
+    -moz-border-radius: 9px;
+    -webkit-border-radius: 9px;
+    border-radius: 9px;
+    text-align: center;
+    padding: 12px 14px 10px 14px;
+}
+#ak_d .button h2 {
+    font-size: larger;
+}
+#ak_d .button h3 {
+    font-size: smaller;
+}
+
+#ak_d .compat {
+    background-color: #000;
+    border-color: #999999;
+    color: #fff;
+}
+#ak_d .compat h3 {
+    color: #888;
+}
+
+#ak_d .paypal {
+    color: #000;
+    background: -webkit-linear-gradient(white, rgb(255, 236, 199));
+    background: linear-gradient(white, rgb(255, 236, 199));
+    border-color: rgb(255, 165, 33);
+    margin-top: 1em;
+}
+#ak_d .paypal h2 {
+    color: rgb(13, 0, 107);
+    font-weight: bold;
+}
+#ak_d .paypal h3 {
+    font-weight: bold;
+    margin-top: 0.5em;
+}
+#ak_d .paypal .logo {
+    -webkit-text-stroke: 0.8px rgb(13, 0, 107);
+    -webkit-text-fill-color: white;
+    font-style: italic;
+    font-size: larger;
+}
+
+#ak_d .minibutton {
+    display: inline-block;
+    width: 30%;
+    border: 1px solid;
+    -moz-border-radius: 9px;
+    -webkit-border-radius: 9px;
+    border-radius: 9px;
+    text-align: center;
+    border-color: rgb(13, 0, 107);
+    margin-top: 0.5em;
+}
+#ak_d .minibutton h1 {
+    font-size: larger;
+    color: rgb(13, 0, 107);
+    margin-bottom: 0.1em;
+}
+#ak_d .minibutton h2 {
+    font-size: smaller;
+    margin-bottom: 1.0em;
+}
+
+</style>
+<div id="ak_d">
+    <div class="button compat">
+    <h2>Supports iOS 4.0 - 11.1.2</h2>
+    <h3>(All devices)</h3>
+</div>
+
+<!-- <h1>What is CrashReporter?</h1>
+<p>CrashReporter is an iOS app for viewing the details of a crash, determining the possible cause of said crash, and reporting this information to the developer(s) responsible.</p>
+
+<h1>Reporting Bugs</h1>
+<p>This tool is open source. If you find a bug or have a feature request, please contact me or submit a patch via the project site.</p>
+<p>(Tap "Developer's Page" below to visit the project site.)</p>
+
+<h1>Credit</h1>
+<p>CrashReporter was originally created by kennytm (<a href="https://github.com/kennytm">https://github.com/kennytm</a>).</p>
+<p>It is now developed and maintained by Lance Fetters (<a href="https://github.com/ashikase">https://github.com/ashikase</a>)</p> -->
+
+    
+        <!-- <dev class="button paypal">
+    <h3>Show your thanks.<br>Help fund future development.</h3>
+    <h2>Donate via <span class="logo">PayPal</span></h2>
+    <a class="minibutton" style="text-decoration: none;" href="http://ashikase.com/r/contribute/paypal_general_1">
+        <h1>$1</h1>
+        <h2>USD</h2>
+    </a>
+    <a class="minibutton" style="text-decoration: none;" href="http://ashikase.com/r/contribute/paypal_general_2">
+        <h1>$2</h1>
+        <h2>USD</h2>
+    </a>
+    <a class="minibutton" style="text-decoration: none;" href="http://ashikase.com/r/contribute/paypal_general_4">
+        <h1>$4</h1>
+        <h2>USD</h2>
+    </a>
+    <h3>Disclosure: PayPal gets $0.30 ~ $0.50.</h3>
+</dev> -->
+
+    
+</div>
+
+			
+		</div>
+	</fieldset>
+
+
+	
+
+
+
+
+
+
+
+
+</panel>
+
+<script type="text/javascript">
+ MakeImgLinks();
+</script>
+
+<center>Advertisements</center><br>
+
+
+
+<panel>
+
+	<fieldset style="clear:both">
+		<label>What's New</label>
+		<div>
+			
+<style scope="">
+    #ak_c h1 {
+    font-weight: bold;
+    text-align: center;
+}
+
+#ak_c h2 {
+    color: #aaa;
+    font-weight: bold;
+    font-size: smaller;
+    text-align: center;
+}
+
+#ak_c ul ul {
+    margin-left: 1em;
+}
+
+</style>
+<div id="ak_c">
+    <fieldset><div>
+<h1 id="version-v1-16-0">Version v1.16.0</h1>
+<h2 id="released-2018-04-23">Released 2018-04-23</h2>
+<hr>
+<ul>
+<li><span class="fix">FIX:</span> iOS 11<ul>
+<li>Added initial support for iOS 11.x.</li>
+<li>This may also work on iOS 10.3.x, but is untested due to lack of a 10.3.x device.</li>
+<li>This fix required removing the "Safe Mode" feature on iOS 10.3.x and up.</li>
+</ul>
+</li>
+</ul>
+</div></fieldset>
+
+</div>
+
+		</div>
+	</fieldset>
+
+
+	
+</panel>
+
+
+
+
+<panel>
+
+	<fieldset style="clear:both">
+		<label>Information</label>
+		<div>
+		<table class="information" cols="2" border="0">
+		<tbody><tr>
+			<td class="key">Updated</td>
+			<td class="detail">July 8, 2020</td>
+		</tr>
+		
+		<tr>
+			<td class="key">License</td>
+			<td class="detail">Free Package</td>
+		</tr>
+		
+				
+
+		</tbody></table>
+		</div>
+	</fieldset>
+</panel>
+
+
+
+<panel>
+	<fieldset style="clear:both">
+		<a class="button" href="https://twitter.com/_wolfy33">Follow me on Twitter</a>
+	</fieldset>
+</panel>
+</body></html>
