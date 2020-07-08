@@ -1,8 +1,8 @@
-Origin: repotest
-Label: RepoTest
+Origin: Wolfy's Repo
+Label: Wolfy's Repo
 Suite: stable
 Version: 1.0
 Codename: ios
 Architectures: iphoneos-arm
 Components: main
-Description: Repo Test
+Description: Wolfy's Repo
