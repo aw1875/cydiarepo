@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    background: #40514e;
+}
+.main {
+    text-align: center;
+    background: #40514e;
+    color: #f5f5f5;
+    width: 200px;
+    height: 100px;
+    padding: 25px;
+    position: absolute;
+    left: calc(50% - 120px);
+    top: calc(50% - 75px);
+}
+
+.main p {
+    margin-bottom: 45px;
+}
+
+.main a {
+    background: #2f89fc;
+    padding: 15px;
+    border-radius: 5px;
+    color: #f5f5f5;
+    text-decoration: none;
+}
