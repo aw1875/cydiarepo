@@ -1,6 +1,6 @@
 Package: com.wolfyy.ccplus
 Name: CC Plus
-Version: 0.0.4
+Version: 0.0.5
 Architecture: iphoneos-arm
 Description: For the time being, this is a test tweak that will be used for testing package managers and updates.
 Depiction: https://repo.wolfyy.me/tweaks/ccplus.html
@@ -8,8 +8,8 @@ Maintainer: Adam Wolf
 Author: Adam Wolf
 Section: Tweaks
 Depends: mobilesubstrate
-Filename: debs/com.wolfyy.ccplus_0.0.4_iphoneos-arm.deb
-Size: 2302
-MD5sum: d45171c7bf7a1b811c08d283d13edded
-SHA1: 581e330c23cef77ab2af47e36da2c6815b5198d0
-SHA256: 72333914a67f7e96063e08359f1346bddd0dabcbbce37acc1158e8a55ecbdcc4
+Filename: debs/com.wolfyy.ccplus_0.0.5_iphoneos-arm.deb
+Size: 2472
+MD5sum: 0fdabb9e262bcea95df3b576e6ddb169
+SHA1: 9fc032d4802934b51a3e348366e77096d573c442
+SHA256: 1504219d3e78fdad2cdcd1c113ca7497671e28f5ea31f0d90db862ca4b459d0a
