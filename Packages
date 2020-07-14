@@ -2,7 +2,8 @@ Package: com.wolfyy.ccplus
 Name: CC Plus
 Version: 0.0.2
 Architecture: iphoneos-arm
-Description: For the time being, just a test tweak.
+Description: For the time being, this is a test tweak that will be used for testing package managers and updates.
+Depiction: https://repo.wolfyy.me/tweaks/ccplus.html
 Maintainer: Adam Wolf
 Author: Adam Wolf
 Section: Tweaks
