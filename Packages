@@ -1,15 +1,15 @@
 Package: com.wolfyy.ccplus
-Name: CC Plus
-Version: 0.0.5
+Name: ControlCenter+
+Version: 0.0.6
 Architecture: iphoneos-arm
 Description: For the time being, this is a test tweak that will be used for testing package managers and updates.
 Depiction: https://repo.wolfyy.me/tweaks/ccplus.html
 Maintainer: Adam Wolf
 Author: Adam Wolf
 Section: Tweaks
-Depends: mobilesubstrate
-Filename: debs/com.wolfyy.ccplus_0.0.5_iphoneos-arm.deb
-Size: 2472
-MD5sum: 0fdabb9e262bcea95df3b576e6ddb169
-SHA1: 9fc032d4802934b51a3e348366e77096d573c442
-SHA256: 1504219d3e78fdad2cdcd1c113ca7497671e28f5ea31f0d90db862ca4b459d0a
+Depends: mobilesubstrate, ws.hbang.common (>= 1.15.1)
+Filename: debs/com.wolfyy.ccplus_0.0.6_iphoneos-arm.deb
+Size: 4976
+MD5sum: f764728e96c21e158c0ac91bc4b6b1a4
+SHA1: 7a69f43f2f06b443946127ee90fbda4c69e59acd
+SHA256: 948a21cfee8606652b8c3eeb2e18aa2671d71f78717ef924e6129a73119c92e4
