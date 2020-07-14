@@ -7,8 +7,8 @@ Maintainer: Adam Wolf
 Author: Adam Wolf
 Section: Tweaks
 Depends: mobilesubstrate
-Filename: debs/com.wolfyy.ccplus-0.01.deb
+Filename: debs/com.wolfyy.ccplus_0.0.1_iphoneos-arm.deb
 Size: 3250
-MD5sum: 91279c9a4cc7b2181151502775a9584d
-SHA1: 4108503cef778d77571d66c7876a36ec08ba735b
-SHA256: 73550da9ff676fe55589ec6ee93cbad96a9022cbd1f1d3de06207489206a33d2
+MD5sum: 415c9ead81f8ce42ca49016b05886a3e
+SHA1: 1f2946edeca12d6a9cfff3c2df855abda699ed7d
+SHA256: 161b64ff50781813b7e9e77634e85f8e4b51a68b35762e9582cffdbf881ca64c
