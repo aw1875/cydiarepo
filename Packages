@@ -1,15 +1,14 @@
-Package: com.yourcompany.testtweak 
-Name: Test Tweak
+Package: com.wolfyy.ccplus
+Name: CC Plus
 Version: 0.0.1
 Architecture: iphoneos-arm
-Description: An awesome MobileSubstrate tweak!
+Description: For the time being, just a test tweak.
 Maintainer: Adam Wolf
 Author: Adam Wolf
 Section: Tweaks
 Depends: mobilesubstrate
-Filename: debs/com.yourcompany.testtweak_0.0.1-12+debug_iphoneos-arm.deb
-Size: 4210
-MD5sum: 8e559287a0f441b916847c2abffd9f45
-SHA1: 1ed11704840a73942e691160ffaa3d42a05aa079
-SHA256: 03b130242d8138f8df509d1ee819cb407725e1bc04d8993e2aa7e7f162e61da4
-Depiction: https://wolfyy.me
+Filename: debs/com.wolfyy.ccplus-0.01.deb
+Size: 3250
+MD5sum: 91279c9a4cc7b2181151502775a9584d
+SHA1: 4108503cef778d77571d66c7876a36ec08ba735b
+SHA256: 73550da9ff676fe55589ec6ee93cbad96a9022cbd1f1d3de06207489206a33d2
