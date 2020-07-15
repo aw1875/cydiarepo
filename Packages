@@ -24,8 +24,8 @@ Maintainer: Adam Wolf
 Author: Adam Wolf
 Section: Tweaks
 Depends: mobilesubstrate, ws.hbang.common (>= 1.15.1)
-Filename: debs/me.wolfyy.tester_0.0.1_iphoneos-arm.deb
-Size: 4912
-MD5sum: 07768f2937d0501cf0b656685de072fb
-SHA1: 507fe768942d140a99551227cfeca6d39a40ae71
-SHA256: 914752c062561b6b63efb6a164ca09ff659435e87e1bae4803b46c8c454cb32b
+Filename: debs/com.wolfyy.tester_0.0.1_iphoneos-arm.deb
+Size: 4914
+MD5sum: 98d17030ddfeb60a1e56b826746ee0f4
+SHA1: 2ff7ab4ec179e5627bddedf120fc8fd6df7f61b3
+SHA256: 26f23a92b3b58f7fe415bd544f001b1fac87ad7c2d1c5392e97a1393c92be615
