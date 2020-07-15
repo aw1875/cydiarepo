@@ -34,11 +34,16 @@ read -p "Version (ex: 0.0.1): " VERSION
 # Get Description
 read -p "Enter Description: " DESCRIPTION
 
-# Get Depiction
-read -p "Enter Depiction: " DEPICTION
-
 # Get Section
 read -p "Enter Section (ex: Tweaks): " SECTION
+
+########## Generate Depiction Page ##########
+
+echo "<html>" >> tweaks/$NAME.html
+echo "<p>$VERSION</p>" >> tweaks/$NAME.html
+echo "</html>" >> tweaks/$NAME.html
+
+DEPICTION="https://repo.wolfyy.me/tweaks/$NAME.html"
 
 ########## Add to Packages file ##########
 
@@ -72,12 +77,12 @@ rm Packages.gz;
 rm Packages.bz2;
 
 sleep 1
-echo "Removed old packages"
+echo "Removed old Packages"
 
 
 # Create new ones
 sleep 1
-echo "Creating new packages"
+echo "Creating new Packages"
 
 sleep 1
 gzip -c9 Packages > Packages.gz
