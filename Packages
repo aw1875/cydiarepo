@@ -2,7 +2,7 @@ Package: com.wolfyy.testtweak
 Name: TestTweak
 Version: 0.0.1
 Architecture: iphoneos-arm
-Description: Testing tweak description weooooo
+Description: This is a test tweak to see how my self-build scripts are working.
 Depiction: https://repo.wolfyy.me/tweaks/TestTweak.html
 Maintainer: Adam Wolf
 Author: Adam Wolf

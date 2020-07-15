@@ -1,9 +1,50 @@
+<!DOCTYPE html>
 <html>
-<p>0.0.1</p>
-</html>
-<html>
-<p>0.0.1</p>
-</html>
-<html>
-<p>0.0.1</p>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, user-scalable=0">
+    <title>TestTweak</title>
+    <link rel="stylesheet" type="text/css" href="includes/style.css">
+    <style>a, .tint, .table-btn:after {color: #16d887} .active {color: #16d887;border-bottom: 5px solid #16d887;}</style>
+    <script src="includes/script.js"></script>
+</head>
+<body>
+    <div class="body">
+        <div class="package package_head">
+            <img src=" ICON ">
+            <div class="package_info">
+                <h1 class="package_name">TestTweak</h1>
+                <p class="package_caption">Adam Wolf</p>
+            </div>
+        </div>
+        <div class="nav">
+            <div class="nav_btn active tweak_info_btn" onclick="swap('.changelog','.tweak_info');">Details</div>
+            <div class="nav_btn changelog_btn" onclick="swap('.tweak_info','.changelog');">Changelog</div>
+        </div>
+        <div class="tweak_info">            
+            <div class="md_view">
+                <p>This is a test tweak to see how my self-build scripts are working.</p>
+            </div>
+            <h3>Information</h3>
+            <div class="table">
+                <div class="cell">
+                    <div class="title">Version</div>
+                    <div class="text">0.0.1</div>
+                    <br><br>
+                </div>
+                <div class="cell">
+                    <div class="title">Section</div>
+                    <div class="text">Tweaks</div>
+                    <br><br>
+                </div>
+            </div>
+        </div>
+        <div class="changelog">
+            <div class="changelog_entry">
+                <h4>0.0.1</h4>
+                <div class="md_view"><p>Inital Tweak :)</p></div>
+            </div>
+        </div>
+    </div>
+</body>
 </html>
