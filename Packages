@@ -13,3 +13,19 @@ Size: 5644
 MD5sum: 9e91c626f547b06686667f2162480708
 SHA1: 662517019ebea6c59efe9d1ee1f580b86b2e473a
 SHA256: ba43098b02a30556bc8c3cd26bb6252e508bb5ede30d9ed0dc446ad5d7160837
+
+Package: me.wolfyy.tester
+Name: Tester Tweak
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: For the time being, this is a test tweak that will be used for testing package managers and updates.
+Depiction: https://repo.wolfyy.me/tweaks/ccplus.html
+Maintainer: Adam Wolf
+Author: Adam Wolf
+Section: Tweaks
+Depends: mobilesubstrate, ws.hbang.common (>= 1.15.1)
+Filename: debs/me.wolfyy.tester_0.0.1_iphoneos-arm.deb
+Size: 4912
+MD5sum: 07768f2937d0501cf0b656685de072fb
+SHA1: 507fe768942d140a99551227cfeca6d39a40ae71
+SHA256: 914752c062561b6b63efb6a164ca09ff659435e87e1bae4803b46c8c454cb32b
