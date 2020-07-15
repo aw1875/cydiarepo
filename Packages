@@ -1,9 +1,9 @@
-Package: com.wolfyy.test
-Name: TestTweak
+Package: com.wolfyy.tester
+Name: Tester
 Version: 0.0.1
 Architecture: iphoneos-arm
-Description: This is a test. ah ha ha.
-Depiction: https://repo.wolfyy.me/tweaks/TestTweak.html
+Description: Tester tweak. This is a test description, hopefully this all works out great. If it does, then I have a grean automation system setup for my tweaks production.
+Depiction: https://repo.wolfyy.me/tweaks/Tester.html
 Maintainer: Adam Wolf
 Author: Adam Wolf
 Section: Tweaks

@@ -39,6 +39,11 @@ read -p "Enter Section (ex: Tweaks): " SECTION
 
 ########## Generate Depiction Page ##########
 
+if [ -f "tweaks/$NAME.html" ]; then
+    echo "Deleting old depictions page"
+    rm tweaks/$NAME.html
+fi
+
 echo "Generating depictions page"
 sleep 2
 
@@ -104,6 +109,8 @@ echo "                <h4>$VERSION</h4>" >> tweaks/$NAME.html
 echo "                <div class=\"md_view\"><p>Inital Tweak :)</p></div>" >> tweaks/$NAME.html
 echo "            </div>" >> tweaks/$NAME.html
 echo "        </div>" >> tweaks/$NAME.html
+echo "        <div class=\"caption center footer\">© 2020 Adam Wolf</div>" >> tweaks/$NAME.html
+echo "        <script>compatible(\"13.0\",\"13.6\",\"iOS 13.0 to 13.6\");externalize()</script>" >> tweaks/$NAME.html
 echo "    </div>" >> tweaks/$NAME.html
 echo "</body>" >> tweaks/$NAME.html
 echo "</html>" >> tweaks/$NAME.html

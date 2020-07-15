@@ -37,12 +37,7 @@ read -p "Enter Description: " DESCRIPTION
 # Get Section
 read -p "Enter Section (ex: Tweaks): " SECTION
 
-########## Generate Depiction Page ##########
-
-echo "<html>" >> tweaks/$NAME.html
-echo "<p>$VERSION</p>" >> tweaks/$NAME.html
-echo "</html>" >> tweaks/$NAME.html
-
+# Set depiction page
 DEPICTION="https://repo.wolfyy.me/tweaks/$NAME.html"
 
 ########## Add to Packages file ##########
